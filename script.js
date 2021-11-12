@@ -21,7 +21,7 @@ var slideUp= {
     
    };
 
-ScrollReveal().reveal(".arrow", {delay: 500});
+ScrollReveal().reveal(".arrow");
 ScrollReveal().reveal(".standout-text", slideRight );
 ScrollReveal().reveal(".transform-text", slideLeft);
 ScrollReveal().reveal(".client-card", slideUp, {delay: 300} );
